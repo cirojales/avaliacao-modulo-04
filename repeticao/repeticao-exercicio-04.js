@@ -6,12 +6,11 @@
 
 function intervalos(...nums) {
   let de0a25 = 0, de26a50 = 0, de51a75 = 0, de76a100 = 0;
+
   for (let num of nums) {
     if (num < 0) {
       break;
-    }
-
-    if (num >= 0 && num <= 25) {
+    } else if (num >= 0 && num <= 25) {
       de0a25++;
     } else if (num >= 26 && num <= 50) {
       de26a50++;
@@ -22,12 +21,18 @@ function intervalos(...nums) {
     }
   }
 
+  let contagem = (num) => {
+    if (num > 1) return num + " números";
+    else if (num === 1) return num + " número";
+    else return "nenhum";
+  };
+
   console.log(
-    `[0-25]: ${de0a25}` + "\n" + 
-    `[26-50]: ${de26a50}` + "\n" + 
-    `[51-75]: ${de51a75}` + "\n" +  
-    `[76-100]: ${de76a100}`
+    `[0-25]: ${contagem(de0a25)}` + "\n" +
+    `[26-50]: ${contagem(de26a50)}` + "\n" +
+    `[51-75]: ${contagem(de51a75)}` + "\n" +
+    `[76-100]: ${contagem(de76a100)}`
   );
 }
 
-intervalos(1, 26, 27, 51, 52, 53, 90, 91, 92, 93);
+intervalos(7, 26, 27, 51, 52, 53, 90, 91, 92, 93);
