@@ -6,18 +6,18 @@
 
 function intervalos(...nums) {
   let de0a25 = 0, de26a50 = 0, de51a75 = 0, de76a100 = 0;
-  for (let i = 0; i < nums.length; i++) {
-    if (nums[i] < 0) {
+  for (let num of nums) {
+    if (num < 0) {
       break;
     }
 
-    if (nums[i] >= 0 && nums[i] <= 25) {
+    if (num >= 0 && num <= 25) {
       de0a25++;
-    } else if (nums[i] >= 26 && nums[i] <= 50) {
+    } else if (num >= 26 && num <= 50) {
       de26a50++;
-    } else if (nums[i] >= 51 && nums[i] <= 75) {
+    } else if (num >= 51 && num <= 75) {
       de51a75++;
-    } else if (nums[i] >= 76 && nums[i] <= 100) {
+    } else if (num >= 76 && num <= 100) {
       de76a100++;
     }
   }

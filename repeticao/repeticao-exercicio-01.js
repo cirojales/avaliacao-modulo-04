@@ -20,14 +20,14 @@ somarMultiplosVersao1();
 
 function somarMultiplosVersao2(...nums) {
   let soma = 0;
-  for (let i = 0; i < nums.length; i++) {
+  for (let num of nums) {
     if (
-      nums[i] % 2 !== 0 
-      && nums[i] % 3 === 0 
-      && nums[i] >= 1 
-      && nums[i] <= 500
+      num % 2 !== 0 
+      && num % 3 === 0 
+      && num >= 1 
+      && num <= 500
     ) {
-      soma += nums[i];
+      soma += num;
     }
   }
   console.log(`Resultado: ${soma}`);
