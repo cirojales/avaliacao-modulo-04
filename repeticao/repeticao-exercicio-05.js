@@ -25,12 +25,9 @@ function lerNumeros(...nums) {
   }
 
   console.log(
-    `Quantidade de pares: ${qtdPares}` +
-    "\n" +
-    `Quantidade de ímpares: ${qtdImpares}` +
-    "\n" +
-    `Média de valores pares: ${somaPares / qtdPares}` +
-    "\n" +
+    `Quantidade de pares: ${qtdPares}` + "\n" +
+    `Quantidade de ímpares: ${qtdImpares}` + "\n" +
+    `Média de valores pares: ${somaPares / qtdPares}` + "\n" +
     `Média de valores lidos: ${somaLidos / nums.length}`
   );
 }

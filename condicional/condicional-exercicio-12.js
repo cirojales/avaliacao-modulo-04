@@ -43,4 +43,4 @@ function avaliarAluno(numeroAluno, nota1, nota2, nota3) {
   );
 }
 
-avaliarAluno(1234, 7, 8.5, 8);
+avaliarAluno(1234, 7.5, 8.5, 9.5);

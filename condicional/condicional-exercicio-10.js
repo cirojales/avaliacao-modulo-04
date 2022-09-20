@@ -11,7 +11,7 @@ Acima de 30 obeso
 */
 
 function calcularIMC(peso, altura) {
-  let imc = Number((peso / (altura * altura)).toFixed(1)); // uma casa decimal; elimina zero
+  let imc = Number((peso / (altura * altura)).toFixed(1)); // uma casa decimal; elimina o zero
   let condicao = "";
   if (imc < 18.5) {
     condicao = "abaixo do peso";

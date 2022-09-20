@@ -14,8 +14,12 @@ function pesoIdeal(altura, sexo) {
   } else if (sexo === "feminino") {
     pesoIdeal = 62.1 * altura - 44.7;
   }
-  console.log(`Peso ideal: ${Number(pesoIdeal.toFixed(1))} kg`) // uma casa decimal; elimina zero
+  console.log(
+    `Sexo: ${sexo}` + "\n" +
+    `Altura: ${altura.toFixed(2)}` + "\n" + // duas casas decimais; mantém o zero
+    `Peso ideal: ${Number(pesoIdeal.toFixed(1))} kg` // uma casa decimal; elimina o zero
+  ); 
 }
 
-pesoIdeal(1.7, "masculino");
-pesoIdeal(1.7, "feminino");
+pesoIdeal(1.70, "masculino");
+pesoIdeal(1.70, "feminino");

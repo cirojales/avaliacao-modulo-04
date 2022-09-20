@@ -15,7 +15,7 @@ function mostrarAlturas(...alturas) {
   }
   console.log(
     `Menor altura: ${alturas[0]}` + "\n" + 
-    `Maior altura: ${alturas.at(-1)}` 
+    `Maior altura: ${alturas.at(-1)}` // ES2022; adeus, "array[array.length - 1]"
   );
 }
 
