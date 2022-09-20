@@ -22,4 +22,4 @@ function pesoIdeal(altura, sexo) {
 }
 
 pesoIdeal(1.70, "masculino");
-pesoIdeal(1.70, "feminino");
+// pesoIdeal(1.70, "feminino");

@@ -36,7 +36,7 @@ function avaliarAluno(numeroAluno, nota1, nota2, nota3) {
     `Nota 1: ${nota1}` + "\n" +
     `Nota 2: ${nota2}` + "\n" +
     `Nota 3: ${nota3}` + "\n" +
-    `ME: ${Number(mediaExerc.toFixed(1))}` + "\n" + // uma casa decimal; elimina zero
+    `ME: ${Number(mediaExerc.toFixed(1))}` + "\n" + // uma casa decimal; elimina o zero
     `MA: ${Number(mediaAprov.toFixed(1))}` + "\n" +
     `Conceito: ${conceito}` + "\n" +
     `Situação: ${situacao}`
