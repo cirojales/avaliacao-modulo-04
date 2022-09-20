@@ -6,9 +6,9 @@
 
 function booleanos(valor1, valor2) {
   if (valor1 && valor2) {
-    console.log("Ambos são VERDADEIROS.");
+    console.log("Ambos são verdadeiros");
   } else if (!valor1 && !valor2) {
-    console.log("Ambos são FALSOS.");
+    console.log("Ambos são falsos");
   }
 }
 

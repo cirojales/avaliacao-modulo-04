@@ -6,7 +6,7 @@
 
 function tempoDeCasada(nome, sexo, estadoCivil) {
   if (sexo === "F" && estadoCivil === "CASADA") {
-    console.log(`${nome}, informe o tempo de casada (anos).`);
+    console.log(`${nome}, informe o tempo de casada (anos)`);
   }
 }
 
