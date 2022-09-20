@@ -12,7 +12,7 @@ function somarMultiplosVersao1() {
 
 somarMultiplosVersao1();
 
-// abaixo, solução alternativa, segundo a interpretação que o prof. Alessandro dá à questão.
+// abaixo, solução alternativa, segundo a interpretação que o prof. Alessandro dá à questão
 
 function somarMultiplosVersao2(...nums) {
   let soma = 0;
@@ -29,4 +29,4 @@ function somarMultiplosVersao2(...nums) {
   console.log(`Resultado: ${soma}`);
 }
 
-somarMultiplosVersao2(3, 9, 11, 12, 4, -9, -12);
+// somarMultiplosVersao2(3, 9, 11, 12, 4, -9, -12);
