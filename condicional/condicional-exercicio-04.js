@@ -4,14 +4,14 @@
 
 */
 
-function somarOuMultiplicar(valorA, valorB) {
-  let valorC = 0;
-  if (valorA === valorB) {
-    valorC = valorA + valorB;
+function somarOuMultiplicar(a, b) {
+  let c = 0;
+  if (a === b) {
+    c = a + b;
   } else {
-    valorC = valorA * valorB;
+    c = a * b;
   }
-  console.log(valorC);
+  console.log(c);
 }
 
 somarOuMultiplicar(3, 3);
