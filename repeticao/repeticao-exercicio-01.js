@@ -11,7 +11,7 @@ function somarMultiplosVersao1() {
       soma += i;
     }
   }
-  console.log(`Soma: ${soma}`);
+  console.log(`Resultado: ${soma}`);
 }
 
 somarMultiplosVersao1();
@@ -30,7 +30,7 @@ function somarMultiplosVersao2(...nums) {
       soma += nums[i];
     }
   }
-  console.log(`Soma: ${soma}`);
+  console.log(`Resultado: ${soma}`);
 }
 
 // somarMultiplosVersao2(3, 9, 11, 12, 4, -9, -12);
